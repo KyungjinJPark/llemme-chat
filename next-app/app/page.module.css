@@ -1,0 +1,28 @@
+.page {
+  padding: 1rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .chatInput {
+    width: 100%;
+  }
+}
+
+.message {
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  .role {
+    font-size: 0.75rem;
+  }
+}
+
+.message.assistant {
+  background-color: rgb(83, 79, 75);
+}
+
+.message.user {
+  background-color: rgb(37, 37, 109);
+}
